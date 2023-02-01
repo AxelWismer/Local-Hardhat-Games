@@ -5,9 +5,20 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "hardhat": "^2.12.4"
+  "scripts": {
+    "start": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "win1": "npx hardhat run scripts/win1.js",
+    "win2": "npx hardhat run scripts/win2.js",
+    "win3": "npx hardhat run scripts/win3.js",
+    "win4": "npx hardhat run scripts/win4.js",
+    "win5": "npx hardhat run scripts/win5.js"
   },
+  "dependencies": {
+    "hardhat": "^2.12.4",
+    "readline-sync": "^1.4.10"
+  },
+  
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0"
   }
